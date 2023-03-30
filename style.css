@@ -1,0 +1,90 @@
+
+img {
+  border-radius: 50%;
+}
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+.container .navbar-nav ms-auto{
+  font-size: 15px;
+}
+#map {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+body{
+  background-color:black;
+  font-family:'Times New Roman', serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+  color:white;
+}
+.nav-item a{
+  color:white;
+  font-family:'Arial';
+}
+.navbar-brand{
+  color:white;
+}
+.ravi h4{
+  opacity:1;
+}
+.card{
+  background-color:black;
+}
+.contact h3,h5{
+  color:white;
+}
+.teja{
+  float:right;
+  text-align:center;
+}
+.teja h4{
+  font-size: 40px;
+}
+#about h2{
+  font-size: 40px;
+}
+#home{
+  font-size:22px;
+  font-style:strong;
+}
+#about{
+  font-size:22px;
+  font-style:strong;
+}
+#education #education_div {
+  min-width: 50vw;
+} 
+#education{
+  font-size: 22px;
+}
+#achievements{
+  font-size:22px;
+  font-style:bold;
+  color: white;
+}
+#achievements h4,#col-right h4,#skills h2,#profiles h2,#education h2{
+  font-size: 40px;
+}
+#navmenu{
+  color: white;
+}
+ul{
+  color: white;
+}
+#skills h4{
+  text-align:left;
+}
+.animate__animated animate__fadeInLeft{
+  --animate-duration: 4s;
+}
